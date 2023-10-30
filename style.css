@@ -1,0 +1,55 @@
+
+/* Global */
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(100, 85, 85);
+    /*background-image: url(/imgs/background_img_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 85, 85);
+}
+
+a:hover {
+    /*color: rgb(144, 13, 13);*/
+    color: rgb(208, 206, 206);
+    text-decoration: line-through;
+}
+
+
+/* index. html */
+
+.headerNav {
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(0.5rem, 0.4440rem + 2.7799vw, 10rem);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.koloman, .egon, .gustav, .rath {
+    margin-top: 0.5vh;
+    margin-bottom: 4.5vh;
+}
+
+.headerH1:hover {
+    /*color: rgb(144, 13, 13);*/
+    color: rgb(208, 206, 206);
+    text-decoration: line-through;
+}
+
+.headerH2 {
+    font-family: 'Spectral', serif;
+    font-weight: 200;
+}
+
+

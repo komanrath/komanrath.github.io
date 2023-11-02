@@ -18,8 +18,12 @@ a {
 /* index. html */
 
 .body_index-html {
-    background-color: rgb(238, 238, 238);
-    color: rgb(100, 85, 85);
+    background-color:rgb(238, 238, 238);
+    color:rgb(100, 85, 85);
+    background-image: url(/imgs/squiggles-2.svg);
+    background-position: center;    
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .headerNav {
@@ -72,6 +76,10 @@ a {
 .body_projects-html {
     background-color:rgb(238, 238, 238);
     color:rgb(100, 85, 85);
+    background-image: url(/imgs/squiggles-2.svg);
+    background-position: center;    
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .PROJECTS {
@@ -144,6 +152,37 @@ a {
     font-weight: 200;
     font-size: clamp(0.5rem, 0.3rem + 1.5vw, 10rem);
 }
+
+.wrapper-project-1, .wrapper-project-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-project-1 button, .wrapper-project-2 button {
+    background-color: transparent;
+    color:rgb(100, 85, 85);
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(0.5rem, 0.6rem + 1.5vw, 10rem);
+    margin-top: 0.8vh;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-top: 13.5vh;
+}
+
+.wrapper-project-1 button:hover, .wrapper-project-2 button:hover {
+    background-color: rgb(208, 206, 206);
+    color:rgb(238, 238, 238);
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(0.5rem, 1rem + 2.7799vw, 10rem);
+    margin-top: 0.8vh;
+    border: none;
+    outline: none;
+    margin-top: 13.5vh;
+}
+
 
 
 

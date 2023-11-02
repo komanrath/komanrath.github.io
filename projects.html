@@ -30,14 +30,94 @@
           </button>
         </div>
         <div class="wrapper-project-2">
-          <button type="button" onclick="showDiv()">
+          <button type="button" onclick="showDiv2()">
             mood ring
           </button>
         </div>
       </div>
+      <button id="projects_nameGenerator" onclick="hideDiv()">
+        NAME
+        <br>
+        GENERATOR
+        <br>
+        <br>
+          <div>
+            a simple <a href="https://komanrath.github.io/NameGenerator/">web 
+            <br>
+            interface</a> that takes 
+            <br>
+            two items of 
+            <br>
+            user input:
+            <br>
+            <br>
+            i. day of birth
+            <br>
+            ii. month of birth
+            <br>
+            <br>
+            and, once submitted, 
+            <br>
+            computes the user's  
+            <br>
+            new name.
+            <br>
+            <br>
+          </div>
+        SEPTEMBER 
+        <br>
+        2023
+      </button>
+      <button id="projects_moodRing" onclick="hideDiv2()">
+        MOOD 
+        <br>
+        RING
+        <br>
+        <br>
+          <div>
+            a <a href="https://komanrath.github.io/Digital_Mood_Ring/">web interface</a>
+            <br> 
+            that tells a user
+            <br> 
+            how they're feeling
+            <br> 
+            based on four
+            <br>
+            questions:  
+            <br>
+            <br>
+            i. favorite color?
+            <br>
+            ii. season of choice?
+            <br>
+            iii. sea or forest?
+            <br>
+            iv. coffee or tea?
+          </div>
+        <br>
+        OCTOBER
+        <br> 
+        2023
+      </button>
     </main>
 
 	    <script>
+      
+      function showDiv() {
+          document.getElementById("projects_nameGenerator").style.display = "block";
+      }
+
+      function hideDiv() {
+          document.getElementById("projects_nameGenerator").style.display = "none";
+      }
+
+      function showDiv2() {
+          document.getElementById("projects_moodRing").style.display = "block";
+      }
+
+      function hideDiv2() {
+          document.getElementById("projects_moodRing").style.display = "none";
+      }
 
       </script>
 

@@ -18,10 +18,7 @@ a {
     outline: none !important;
 }
 
-
-/* index. html */
-
-.body_index-html {
+body {
     background-color:rgb(238, 238, 238);
     color:rgb(100, 85, 85);
     background-image: url(/imgs/squiggles-2.svg);
@@ -30,19 +27,23 @@ a {
     background-size: cover;
 }
 
+/* index. html */
+
 .headerNav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1vw;
+    margin: 0 1vw;
     flex-wrap: wrap;
-
     font-family: 'Spectral', serif;
     font-weight: 600;
     font-size: clamp(0.5rem, 0.4440rem + 2.7799vw, 10rem);
-
     height: 100vh;
+}
+
+.body_index-html {
+    margin: 0;
 }
 
 .koloman-egon-gustav-rath {
@@ -51,7 +52,6 @@ a {
 }
 
 .koloman-egon-gustav-rath:hover {
-    /*color: rgb(144, 13, 13);*/
     color: rgb(208, 206, 206);
     text-decoration: line-through;
 }
@@ -62,7 +62,6 @@ a {
 }
 
 #projects:hover, #about:hover {
-    /*color: rgb(144, 13, 13);*/
     color: rgb(208, 206, 206);
     text-decoration: line-through;
 }
@@ -74,17 +73,7 @@ a {
 }
 
 
-
-/* projects. html */
-
-.body_projects-html {
-    background-color:rgb(238, 238, 238);
-    color:rgb(100, 85, 85);
-    background-image: url(/imgs/squiggles-2.svg);
-    background-position: center;    
-    background-repeat: repeat;
-    background-size: cover;
-}
+/* projects.html */
 
 .PROJECTS {
     text-align: start;
@@ -113,7 +102,6 @@ a {
     border: none;
     outline: none;
     background-color: transparent;
-
 }
 
 .header_nav-projects-html a {
@@ -145,7 +133,6 @@ a {
     font-family: 'Spectral', serif;
     font-weight: 600;
     font-size: clamp(1.5rem, 0.6rem + 2.5vw, 10rem);    
-    margin-top: 0.8vh;
     border: none;
     outline: none;
     border-radius: 50%;
@@ -157,7 +144,7 @@ a {
     color:rgb(238, 238, 238);
     font-family: 'Spectral', serif;
     font-weight: 600;
-    font-size: clamp(0.5rem, 1rem + 2.7799vw, 10rem);
+    font-size: clamp(4.5rem, 2rem + 1.7799vw, 10rem);
     margin-top: 0.8vh;
     border: none;
     outline: none;
@@ -199,6 +186,127 @@ a {
     text-decoration: line-through;
     color: rgb(208, 206, 206);
 }
+
+
+/* about.html */
+
+.body_about-html {
+    background-color:rgb(238, 238, 238);
+    color:rgb(100, 85, 85);
+    background-image: url(/imgs/squiggles-2.svg);
+    background-position: left top;    
+    background-repeat: repeat;
+    background-size: 45%; 
+}
+
+.ABOUT {
+    text-align: end;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(2rem, 0.4440rem + 3.7799vw, 10rem);
+    margin-top: 0.8vh;
+    margin-bottom: 3vh;
+    margin-right: 6.5vw;
+}
+
+.body_footer-about-html {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    place-items: flex-start;
+}
+
+.body_footer-about-html a {
+    text-decoration: none;
+    color:rgb(100, 85, 85);
+}
+
+.body_footer-about-html button {
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(2rem, 0.4440rem + 3.7799vw, 10rem);
+    text-align: end;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    margin-right: 5.5vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.body_footer-about-html button:hover, 
+.body_footer-about-html a:hover {
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(2rem, 0.4440rem + 3.7799vw, 10rem);
+    text-align: end;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    margin-right: 5.5vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-decoration:line-through;
+    color: rgb(208, 206, 206);
+}
+
+video {
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 10%;
+    margin: 1vh 2vw;
+  }
+
+  .main_about-html p {
+    color:rgb(100, 85, 85);
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: clamp(1rem, 0.07rem + 2.7799vw, 10rem);
+    margin: 1vh 1vw;
+  }
+
+  .div_video-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2vh 0;
+  }
+
+  .div_video-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 2vh 0;
+  }
+
+  .div_video-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2vh 0;
+  }
+
+  .main_p1 {
+    text-align: end;
+  }
+
+  .main_p2 p {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+  }
+
+  .main_p2 button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 93%;
+  }
+
+
+
 
 
 
